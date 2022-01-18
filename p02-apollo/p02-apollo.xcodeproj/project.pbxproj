@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78F058F627970E53001EF919 /* MissionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F058F527970E53001EF919 /* MissionDetailView.swift */; };
 		BDB6444F278E22220030CB50 /* p02_apolloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6444E278E22220030CB50 /* p02_apolloApp.swift */; };
 		BDB64451278E22220030CB50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB64450278E22220030CB50 /* ContentView.swift */; };
 		BDB64453278E22240030CB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB64452278E22240030CB50 /* Assets.xcassets */; };
@@ -15,10 +16,10 @@
 		BDB64463278E225B0030CB50 /* Bundle+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB64460278E225B0030CB50 /* Bundle+Decodable.swift */; };
 		BDB64469278E26410030CB50 /* CrewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB64468278E26400030CB50 /* CrewMember.swift */; };
 		BDB6446A278E27C90030CB50 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = BDB6445E278E225A0030CB50 /* missions.json */; };
-		BDB73FD7278F69190043D263 /* MissionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB73FD6278F69190043D263 /* MissionDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78F058F527970E53001EF919 /* MissionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailView.swift; sourceTree = "<group>"; };
 		BDB6444B278E22220030CB50 /* p02-apollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "p02-apollo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB6444E278E22220030CB50 /* p02_apolloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p02_apolloApp.swift; sourceTree = "<group>"; };
 		BDB64450278E22220030CB50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		BDB6445E278E225A0030CB50 /* missions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		BDB64460278E225B0030CB50 /* Bundle+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decodable.swift"; sourceTree = "<group>"; };
 		BDB64468278E26400030CB50 /* CrewMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMember.swift; sourceTree = "<group>"; };
-		BDB73FD6278F69190043D263 /* MissionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +63,10 @@
 			children = (
 				BDB6444E278E22220030CB50 /* p02_apolloApp.swift */,
 				BDB64450278E22220030CB50 /* ContentView.swift */,
-				BDB73FD6278F69190043D263 /* MissionDetailView.swift */,
 				BDB6446F278E2A260030CB50 /* Model */,
 				BDB64452278E22240030CB50 /* Assets.xcassets */,
 				BDB64454278E22240030CB50 /* Preview Content */,
+				78F058F527970E53001EF919 /* MissionDetailView.swift */,
 			);
 			path = "p02-apollo";
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F058F627970E53001EF919 /* MissionDetailView.swift in Sources */,
 				BDB64451278E22220030CB50 /* ContentView.swift in Sources */,
 				BDB64463278E225B0030CB50 /* Bundle+Decodable.swift in Sources */,
-				BDB73FD7278F69190043D263 /* MissionDetailView.swift in Sources */,
 				BDB64462278E225B0030CB50 /* Mission.swift in Sources */,
 				BDB6444F278E22220030CB50 /* p02_apolloApp.swift in Sources */,
 				BDB64469278E26410030CB50 /* CrewMember.swift in Sources */,

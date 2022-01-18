@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1581B6858B332870B085D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA158CBDC478DE1A0C6BA6C6 /* Preview Assets.xcassets */; };
+		EA158309DE378530EBC0D153 /* Occupancy_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1581F8AEB52448FB692F39 /* Occupancy_TrackerUITestsLaunchTests.swift */; };
+		EA1583E457CD1F83D4609644 /* Occupancy_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA158E553674C0F41289D1D2 /* Occupancy_TrackerUITests.swift */; };
+		EA158417D4416E8E90CFBB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1589F6D697E9565FD727BA /* Assets.xcassets */; };
+		EA15846986A5DFC87FF082EB /* Occupancy_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1582703FAEBAF715C60D52 /* Occupancy_TrackerTests.swift */; };
+		EA1584D449CFF46ADC62C72F /* Occupancy_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA158E2FA2B447CFDE07E937 /* Occupancy_TrackerApp.swift */; };
+		EA1586BF2B66D4FA889E2A84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA15860B883344883E1DEEB3 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA15896DEF628468A53A73B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA158E479085AF82DEF611AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1587913BE88F0EC823E093;
+			remoteInfo = "Occupancy Tracker";
+		};
+		EA158C0A650D2D46E2F51176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA158E479085AF82DEF611AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1587913BE88F0EC823E093;
+			remoteInfo = "Occupancy Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1581F8AEB52448FB692F39 /* Occupancy_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occupancy_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA1582703FAEBAF715C60D52 /* Occupancy_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occupancy_TrackerTests.swift; sourceTree = "<group>"; };
+		EA1583B30899D7317F6413FD /* Occupancy TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Occupancy TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA15860B883344883E1DEEB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA1587C9668C0974EEDB21E5 /* Occupancy TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Occupancy TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA158971B095ABFE6DB83BAD /* Occupancy Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Occupancy Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1589F6D697E9565FD727BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA158CBDC478DE1A0C6BA6C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA158E2FA2B447CFDE07E937 /* Occupancy_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occupancy_TrackerApp.swift; sourceTree = "<group>"; };
+		EA158E553674C0F41289D1D2 /* Occupancy_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occupancy_TrackerUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1584D7A34B337DB0FB3E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1589775831E88A1DD59008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA158A984143AD1AE6D8BB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA15807CF5B84E4F385AF56B /* Occupancy TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA158E553674C0F41289D1D2 /* Occupancy_TrackerUITests.swift */,
+				EA1581F8AEB52448FB692F39 /* Occupancy_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Occupancy TrackerUITests";
+			sourceTree = "<group>";
+		};
+		EA1583D2EB28E191491C3CC7 = {
+			isa = PBXGroup;
+			children = (
+				EA158D8B0DF46BF63A4C83D0 /* Products */,
+				EA15898E0C73BBF0B92A096E /* Occupancy Tracker */,
+				EA1589563E08B5EA8996F33C /* Occupancy TrackerTests */,
+				EA15807CF5B84E4F385AF56B /* Occupancy TrackerUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1588E6D02896FEF156D8F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA158CBDC478DE1A0C6BA6C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA1589563E08B5EA8996F33C /* Occupancy TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1582703FAEBAF715C60D52 /* Occupancy_TrackerTests.swift */,
+			);
+			path = "Occupancy TrackerTests";
+			sourceTree = "<group>";
+		};
+		EA15898E0C73BBF0B92A096E /* Occupancy Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				EA1589F6D697E9565FD727BA /* Assets.xcassets */,
+				EA1588E6D02896FEF156D8F6 /* Preview Content */,
+				EA158E2FA2B447CFDE07E937 /* Occupancy_TrackerApp.swift */,
+				EA15860B883344883E1DEEB3 /* ContentView.swift */,
+			);
+			path = "Occupancy Tracker";
+			sourceTree = "<group>";
+		};
+		EA158D8B0DF46BF63A4C83D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA158971B095ABFE6DB83BAD /* Occupancy Tracker.app */,
+				EA1583B30899D7317F6413FD /* Occupancy TrackerTests.xctest */,
+				EA1587C9668C0974EEDB21E5 /* Occupancy TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA15825C388B620B9F414E3C /* Occupancy TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA15873BEB248EA1A145E3A2 /* Build configuration list for PBXNativeTarget "Occupancy TrackerUITests" */;
+			buildPhases = (
+				EA1586CE23C23159FC1925FD /* Sources */,
+				EA1584D7A34B337DB0FB3E3C /* Frameworks */,
+				EA1584D2643833E302EC243C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1583948A583DD90585AFF8 /* PBXTargetDependency */,
+			);
+			name = "Occupancy TrackerUITests";
+			productName = "Occupancy TrackerUITests";
+			productReference = EA1587C9668C0974EEDB21E5 /* Occupancy TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EA1587913BE88F0EC823E093 /* Occupancy Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA158F45DDAF986585400BC8 /* Build configuration list for PBXNativeTarget "Occupancy Tracker" */;
+			buildPhases = (
+				EA158C9BEB8A8EA212DF7EF3 /* Sources */,
+				EA158A984143AD1AE6D8BB47 /* Frameworks */,
+				EA15879377D8A8C4772CEEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Occupancy Tracker";
+			productName = "Occupancy Tracker";
+			productReference = EA158971B095ABFE6DB83BAD /* Occupancy Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA158F98BA45A7144F5A8E76 /* Occupancy TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA158598D142CBA966A3013C /* Build configuration list for PBXNativeTarget "Occupancy TrackerTests" */;
+			buildPhases = (
+				EA1588257CC7D46BAC13C56E /* Sources */,
+				EA1589775831E88A1DD59008 /* Frameworks */,
+				EA158E6369BE0422F3974E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA158E2BEE2B030DC1FF7D41 /* PBXTargetDependency */,
+			);
+			name = "Occupancy TrackerTests";
+			productName = "Occupancy TrackerTests";
+			productReference = EA1583B30899D7317F6413FD /* Occupancy TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA158E479085AF82DEF611AF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EA1581291EBC40B8C586D3B5 /* Build configuration list for PBXProject "Occupancy Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA1583D2EB28E191491C3CC7;
+			productRefGroup = EA158D8B0DF46BF63A4C83D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1587913BE88F0EC823E093 /* Occupancy Tracker */,
+				EA158F98BA45A7144F5A8E76 /* Occupancy TrackerTests */,
+				EA15825C388B620B9F414E3C /* Occupancy TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1584D2643833E302EC243C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA15879377D8A8C4772CEEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA158417D4416E8E90CFBB80 /* Assets.xcassets in Resources */,
+				EA1581B6858B332870B085D6 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA158E6369BE0422F3974E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1586CE23C23159FC1925FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1583E457CD1F83D4609644 /* Occupancy_TrackerUITests.swift in Sources */,
+				EA158309DE378530EBC0D153 /* Occupancy_TrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1588257CC7D46BAC13C56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA15846986A5DFC87FF082EB /* Occupancy_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA158C9BEB8A8EA212DF7EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1584D449CFF46ADC62C72F /* Occupancy_TrackerApp.swift in Sources */,
+				EA1586BF2B66D4FA889E2A84 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1583948A583DD90585AFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1587913BE88F0EC823E093 /* Occupancy Tracker */;
+			targetProxy = EA158C0A650D2D46E2F51176 /* PBXContainerItemProxy */;
+		};
+		EA158E2BEE2B030DC1FF7D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1587913BE88F0EC823E093 /* Occupancy Tracker */;
+			targetProxy = EA15896DEF628468A53A73B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA1580586A068E19DF95CC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA158113AC62243D62BB0363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Occupancy Tracker.app/Occupancy Tracker";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myatt.Occupancy-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EA15822EAD674FD5BA91A6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA15832E7B25AF9DCA2FAFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Occupancy Tracker.app/Occupancy Tracker";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myatt.Occupancy-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		EA158990AE90786D52DFA941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Occupancy Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myatt.Occupancy-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA158B6E8F8717E051380053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myatt.Occupancy-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Occupancy Tracker";
+			};
+			name = Release;
+		};
+		EA158EFEB547C9AF769E666C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Occupancy Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myatt.Occupancy-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA158F7A0B7E8637341D2EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myatt.Occupancy-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Occupancy Tracker";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1581291EBC40B8C586D3B5 /* Build configuration list for PBXProject "Occupancy Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA15822EAD674FD5BA91A6B2 /* Debug */,
+				EA1580586A068E19DF95CC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA158598D142CBA966A3013C /* Build configuration list for PBXNativeTarget "Occupancy TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA158113AC62243D62BB0363 /* Debug */,
+				EA15832E7B25AF9DCA2FAFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA15873BEB248EA1A145E3A2 /* Build configuration list for PBXNativeTarget "Occupancy TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA158F7A0B7E8637341D2EF3 /* Debug */,
+				EA158B6E8F8717E051380053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA158F45DDAF986585400BC8 /* Build configuration list for PBXNativeTarget "Occupancy Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA158EFEB547C9AF769E666C /* Debug */,
+				EA158990AE90786D52DFA941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA158E479085AF82DEF611AF /* Project object */;
+}

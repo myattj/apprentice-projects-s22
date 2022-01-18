@@ -2,22 +2,47 @@
 //  MissionDetailView.swift
 //  p02-apollo
 //
-//  Created by Samuel Shi on 1/12/22.
+//  Created by Josh Myatt on 1/18/22.
 //
 
 import SwiftUI
 
 struct MissionDetailView: View {
-    // use this mission to display the content on the detail view
     let mission: Mission
-    
     var body: some View {
-        Text("Hello, World!")
+            List{
+                HStack{
+                    Spacer()
+                    Image(mission.imageName)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 100)
+                    Spacer()
+                }
+                HStack{
+                    Spacer()
+                    Text(mission.formattedLaunchDate)
+                    Spacer()
+                }
+                Text(mission.description)
+                    ForEach(mission.crew, id: \.id){crew in
+                        HStack{
+                            Image(crew.imageName)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 50)
+                            Text(crew.name)
+                        }
+                    }
+                }
+        .navigationTitle(mission.displayName)
+        .navigationBarTitleDisplayMode(.inline)
+        
     }
 }
 
 struct MissionDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        MissionDetailView(mission: .example)
+        MissionDetailView(mission: Mission.example)
     }
 }

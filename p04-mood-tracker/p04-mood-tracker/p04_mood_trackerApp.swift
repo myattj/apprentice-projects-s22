@@ -11,7 +11,7 @@ import SwiftUI
 struct p04_mood_trackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(moodCheckModel: MoodTrackerViewModel.init())
         }
     }
 }

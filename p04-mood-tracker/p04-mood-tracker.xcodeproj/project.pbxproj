@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		788507BF279F3D6C00D9976F /* MoodCheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788507BE279F3D6C00D9976F /* MoodCheckIn.swift */; };
+		788507C3279F440F00D9976F /* MoodTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788507C2279F440F00D9976F /* MoodTrackerViewModel.swift */; };
 		BD8217462796786F002F9CC2 /* p04_mood_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8217452796786F002F9CC2 /* p04_mood_trackerApp.swift */; };
 		BD8217482796786F002F9CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8217472796786F002F9CC2 /* ContentView.swift */; };
 		BD82174A27967871002F9CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD82174927967871002F9CC2 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		788507BE279F3D6C00D9976F /* MoodCheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodCheckIn.swift; sourceTree = "<group>"; };
+		788507C2279F440F00D9976F /* MoodTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackerViewModel.swift; sourceTree = "<group>"; };
 		BD8217422796786F002F9CC2 /* p04-mood-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "p04-mood-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8217452796786F002F9CC2 /* p04_mood_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p04_mood_trackerApp.swift; sourceTree = "<group>"; };
 		BD8217472796786F002F9CC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				BD8217472796786F002F9CC2 /* ContentView.swift */,
 				BD82174927967871002F9CC2 /* Assets.xcassets */,
 				BD82174B27967871002F9CC2 /* Preview Content */,
+				788507BE279F3D6C00D9976F /* MoodCheckIn.swift */,
+				788507C2279F440F00D9976F /* MoodTrackerViewModel.swift */,
 			);
 			path = "p04-mood-tracker";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788507C3279F440F00D9976F /* MoodTrackerViewModel.swift in Sources */,
 				BD8217482796786F002F9CC2 /* ContentView.swift in Sources */,
+				788507BF279F3D6C00D9976F /* MoodCheckIn.swift in Sources */,
 				BD8217462796786F002F9CC2 /* p04_mood_trackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

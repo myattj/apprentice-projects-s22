@@ -13,7 +13,7 @@ struct MoodCheckIn: Codable, Identifiable {
     let timeStamp: Date
     var formattedTimeStamp: String {
         let formatter = DateFormatter()
-        formatter.dateStyle = .short
+        formatter.dateStyle = .long
         return(formatter.string(from: timeStamp))
     }
 }

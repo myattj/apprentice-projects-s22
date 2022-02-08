@@ -11,27 +11,32 @@ struct ContentView: View {
     @StateObject var moodCheckModel: MoodTrackerViewModel
     @State var mood: String = ""
     var body: some View {
-        VStack{
-            Spacer(minLength: 10)
-            HStack{
-                TextField(
-                    "Enter your mood", text: $mood
-                )
-                Button(){
-                    moodCheckModel.append(mood: mood)
-                } label:{
-                Text("Add")
-                }
-            }
+        NavigationView{
             List{
-                ForEach(moodCheckModel.checkIns, id: \.id) { moodCheck in
-                    VStack{
-                        Text("\(moodCheck.mood)")
-                        Text("\(moodCheck.formattedTimeStamp)")
+                HStack{
+                    TextField(
+                        "Enter your mood", text: $mood
+                    )
+                    Button("Add"){
+                        let checkIn = MoodCheckIn(mood: mood, timeStamp: Date())
+                        moodCheckModel.checkIns.append(checkIn)
                     }
                 }
+                    ForEach(moodCheckModel.checkIns, id: \.id) { moodCheck in
+                        VStack{
+                            HStack{
+                                padding()
+                                Text("\(moodCheck.mood)")
+                                padding()
+
+                            }
+                            Text("\(moodCheck.formattedTimeStamp)")
+                                .font(.footnote)
+                        }
+                    }
+                }
+            .navigationTitle("Mood Tracker")
             }
-        }
     }
 }
 

@@ -2,20 +2,18 @@
 //  HomeFeedViewModel.swift
 //  p05-socialmedia
 //
-//  Created by Samuel Shi on 2/7/22.
+//  Created by Josh Myatt on 2/22/22.
 //
 
-import Foundation
+import SwiftUI
 
-@MainActor
 class HomeFeedViewModel: ObservableObject {
     @Published var posts: [Post] = []
-    
-    init() {
+    func fetchPosts(){
+        posts = PostsService.getHomeFeed()
+    }
+    init(){
         fetchPosts()
     }
     
-    func fetchPosts() {
-        posts = PostsService.getHomeFeed()
-    }
 }

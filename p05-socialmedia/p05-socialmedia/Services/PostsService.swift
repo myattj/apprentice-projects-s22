@@ -1,20 +1,21 @@
 //
-//  HomeFeedService.swift
+//  PostsService.swift
 //  p05-socialmedia
 //
-//  Created by Samuel Shi on 2/7/22.
+//  Created by Josh Myatt on 2/22/22.
 //
 
-import Foundation
+import SwiftUI
 
 struct PostsService {
-    static private var posts: [Post] = PostList.defaultPosts
-    
-    static func getHomeFeed() -> [Post] {
-        return posts
+    static private var posts: [Post] = []
+   
+    static func getHomeFeed() -> [Post]{
+        return PostsService.posts
     }
     
-    static func makePost(post: Post) {
-        posts.insert(post, at: 0)
+    static func makePost(post: Post){
+        PostsService.posts.append(post)
     }
 }
+

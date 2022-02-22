@@ -2,24 +2,29 @@
 //  NewPostViewModel.swift
 //  p05-socialmedia
 //
-//  Created by Samuel Shi on 2/17/22.
+//  Created by Josh Myatt on 2/22/22.
 //
 
-import Foundation
-
+import SwiftUI
 class NewPostViewModel: ObservableObject {
-    @Published var currentText: String = ""
+    @Published var currentPostText: String = ""
     
-    func makePost() {
+    
+    func makePost(){
         let post = Post(id: UUID(),
-                        authorName: "Sam Shi",
-                        authorUsername: "samrshi",
-                        authorImageAddress: "sam",
+                        authorName: "Josh M",
+                        authorUsername: "josh",
+                        authorImageAddress: "scaryzuck",
                         datePosted: Date(),
-                        postContent: currentText,
-                        likeCount: 0,
-                        commentCount: 0)
+                        postContent: currentPostText,
+                        likeCount: 1010,
+                        commentCount: 90)
         PostsService.makePost(post: post)
-        currentText = ""
+        
+        
+        
+        currentPostText = ""
     }
-}
+        
+    }
+    
